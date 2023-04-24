@@ -26,3 +26,6 @@ Where:
 
 ## How to embed
 `https://filter.premiumplus.dev/filter.js`
+
+## Test
+See [test.html](test.html)

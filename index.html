@@ -1,0 +1,22 @@
+<html>
+<head>
+    <script src="filter.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="personal">
+        Hey, My email is name@example.com, my phone number is +32478123456 or 0032243455 and I'm born on 04/05/1977 and my creditcard is 1234567891234 and my SSN is 123-45-6789 and my TAX ID is BE1.234.567
+    </div>
+    <button id="filter_me">Filter!</button>
+    <div id="filtered"></div>
+    <script>
+        $(document).ready(function(){
+            $("#filter_me").click(function(){
+                var text = $("#personal").text();
+                var filtered = filter(text);
+                $("#filtered").text(filtered);
+            });
+        });
+    </script>
+</body>
+</html>
