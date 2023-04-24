@@ -29,4 +29,4 @@ Where:
 `https://filter.premiumplus.dev/filter.js`
 
 ## Test
-See [test.html](test.html)
+See [https://filter.premiumplus.dev/test.html](https://filter.premiumplus.dev/test.html)
