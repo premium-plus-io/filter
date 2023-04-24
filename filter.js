@@ -1,4 +1,4 @@
-function filter(input,[date_filter]){
+function filter(input,date_filter){
 	var filters = [
 		{
 			"type":"email",
