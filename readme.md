@@ -9,6 +9,7 @@ This list includes:
 - Date of Birth (if born before 2000)
 - Passport Number
 - Tax number
+- IBAN
 
 ## Disclaimer
 Note that this regular expression is still not exhaustive and may not match all possible PII formats. 
