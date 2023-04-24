@@ -23,3 +23,6 @@ When removing PI from a text string, it's important to use appropriate methods t
 Where:
 - `unfiltered_input` is a string of text
 - `date` is a boolean `true/false` to also filter dates. (defaults to false)
+
+## How to embed
+`https://filter.premiumplus.dev/filter.js`
