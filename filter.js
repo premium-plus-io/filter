@@ -207,8 +207,11 @@ function filter(input,date_filter){
 	phones.forEach(function(phone) {
 		input = input.replace(phone.regex, phone.replace);
 	});
-	passports.forEach(function(passport) {
-		input = input.replace(passport.regex, passport.replace);
+	phones.forEach(function(phone) {
+		input = input.replace(phone.regex, phone.replace);
+	});
+	ssn.forEach(function(number) {
+		input = input.replace(number.regex, number.replace);
 	});
 
 	dates.forEach(function(date) {

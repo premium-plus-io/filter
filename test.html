@@ -5,16 +5,23 @@
 </head>
 <body>
     <div id="personal">
-        Hey, My email is name@example.com, my phone number is +32478123456 or 0032243455 and I'm born on 04/05/1977 and my creditcard is 1234567891234 and my SSN is 123-45-6789 and my TAX ID is BE1.234.567 and my IBAN is BE71096123456769 and my passport is
+        Hey, My email is name@example.com, my phone number is +32478123456 or 0032243455 and I'm born on 04/05/1977 and my creditcard is 1234567891234 and my TAX ID is BE1.234.567 and my IBAN is BE71096123456769 and my passport is
     </div>
-    <button id="filter_me">Filter!</button>
-    <div id="filtered"></div>
+    <button id="filter_nodate">Filter No Dates</button>
+    <button id="filter_date">Filter Dates</button>
+    <div id="filtered_nodate"></div>
+    <div id="filtered_date"></div>
     <script>
         $(document).ready(function(){
-            $("#filter_me").click(function(){
+            $("#filter_nodate").click(function(){
                 var text = $("#personal").text();
                 var filtered = filter(text);
-                $("#filtered").text(filtered);
+                $("#filtered_nodate").text(filtered);
+            });
+            $("#filter_date").click(function(){
+                var text = $("#personal").text();
+                var filtered = filter(text,true);
+                $("#filtered_date").text(filtered);
             });
         });
     </script>
